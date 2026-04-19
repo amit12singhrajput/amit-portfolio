@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://amit12singhrajput.github.io/amit-portfolio/sitemap.xml
