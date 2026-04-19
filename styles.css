@@ -270,6 +270,28 @@ h1, h2, h3, h4, h5, h6 {
 
 .hero-content {
     max-width: 800px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-image-container {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 2rem;
+    border-radius: 50%;
+    padding: 4px;
+    background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+    box-shadow: 0 0 30px var(--glow-color);
+}
+
+.profile-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid var(--bg-color);
 }
 
 .greeting {
