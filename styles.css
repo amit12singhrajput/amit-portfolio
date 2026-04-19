@@ -653,6 +653,8 @@ footer {
     .btn-primary, .btn-secondary {
         text-align: center;
         width: 100%;
+        display: block;
+        box-sizing: border-box;
     }
     .about-container {
         padding: 2rem 1.5rem;

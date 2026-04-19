@@ -49,23 +49,24 @@ let isDeleting = false;
 let currentPhrase = "";
 
 function typeWriter() {
-    isDeleting = i === phrases[j].length;
-    currentPhrase = isDeleting 
-        ? phrases[j].substring(0, i--) 
-        : phrases[j].substring(0, i++);
-
+    currentPhrase = phrases[j].substring(0, i);
     document.getElementById('typewriter').innerHTML = currentPhrase;
 
     let typeSpeed = isDeleting ? 50 : 100;
 
-    if (!isDeleting && i === phrases[j].length + 1) {
+    if (!isDeleting && i === phrases[j].length) {
         typeSpeed = 2000; // Pause at the end of the phrase
         isDeleting = true;
-        i = phrases[j].length;
     } else if (isDeleting && i === 0) {
         isDeleting = false;
         j = (j + 1) % phrases.length;
         typeSpeed = 500; // Pause before typing next phrase
+    }
+
+    if (isDeleting) {
+        i--;
+    } else {
+        i++;
     }
 
     setTimeout(typeWriter, typeSpeed);
