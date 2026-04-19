@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amit Kumar Singh | Senior Java Backend Engineer</title>
+    <meta name="description" content="Portfolio of Amit Kumar Singh, Senior Java Backend Engineer specialized in Microservices, Google Cloud Platform, and Spring Boot.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background-effects">
+        <div class="glow-orb orb-1"></div>
+        <div class="glow-orb orb-2"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-content">
+            <a href="#home" class="nav-logo">AKS<span>.</span></a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact" class="btn-primary-outline btn-small">Contact</a>
+            </div>
+            <div class="mobile-menu-btn" id="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+    <div class="mobile-nav" id="mobile-nav">
+        <a href="#about" class="mobile-link">About</a>
+        <a href="#experience" class="mobile-link">Experience</a>
+        <a href="#projects" class="mobile-link">Projects</a>
+        <a href="#skills" class="mobile-link">Skills</a>
+        <a href="#contact" class="mobile-link">Contact</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero section">
+        <div class="hero-content reveal-up">
+            <p class="greeting">Hello, I'm</p>
+            <h1 class="hero-title">Amit Kumar Singh</h1>
+            <h2 class="hero-subtitle"><span id="typewriter"></span><span class="cursor">|</span></h2>
+            <p class="hero-description">
+                Java Backend Developer with 5+ years of experience designing and building scalable microservices using Spring Boot, REST APIs, and Google Cloud Platform.
+            </p>
+            <div class="hero-cta">
+                <a href="#projects" class="btn-primary">View My Work</a>
+                <a href="#contact" class="btn-secondary">Let's Connect</a>
+            </div>
+            <div class="hero-socials">
+                <a href="mailto:singhamit17396@gmail.com" target="_blank" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                <a href="tel:8109297060" aria-label="Phone"><i class="fas fa-phone-alt"></i></a>
+                <!-- Add LinkedIn/GitHub via placeholders -->
+                <a href="#" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <h2 class="section-title reveal-up">About Me</h2>
+        <div class="about-container glass-card reveal-up">
+            <div class="about-text">
+                <p>
+                    I am a Senior Java Backend Engineer with a proven track record of delivering production-grade distributed systems. Over the years, I have engineered robust microservices for structural engineering platforms, CRM workflows, and enterprise automation systems.
+                </p>
+                <p>
+                    My expertise lies in architecting <strong>highly scalable, event-driven applications</strong> deployed on Google Kubernetes Engine (GKE) leveraging Cloud Pub/Sub, Cloud SQL, and Redis. I am deeply focused on clean architecture, performance optimization, and reliable CI/CD deployment pipelines.
+                </p>
+                <div class="education">
+                    <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+                    <p><strong>Bachelor of Engineering</strong></p>
+                    <p class="sub-text">Rungta Engineering College, Raipur (Graduated 2018)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience section">
+        <h2 class="section-title reveal-up">Professional Experience</h2>
+        <div class="timeline">
+            <!-- R Systems -->
+            <div class="timeline-item reveal-up">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content glass-card">
+                    <span class="timeline-date">Mar 2023 – Jul 2025</span>
+                    <h3 class="timeline-role">Software Engineer</h3>
+                    <h4 class="timeline-company">R Systems International Ltd</h4>
+                    <ul class="timeline-list">
+                        <li>Designed and developed Spring Boot microservices supporting enterprise workflow systems serving thousands of daily transactions.</li>
+                        <li>Deployed and managed containerized services on Google Kubernetes Engine (GKE), achieving high availability and zero-downtime deployments.</li>
+                        <li>Integrated Google Cloud Pub/Sub for asynchronous, event-driven communication, decoupling service dependencies.</li>
+                        <li>Optimized PostgreSQL (Cloud SQL) queries for high-frequency paths and utilized Redis for caching, significantly reducing latency.</li>
+                        <li>Improved test coverage using JUnit and Mockito, and centralized exception handling for robust production stability.</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- GeneX -->
+            <div class="timeline-item reveal-up">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content glass-card">
+                    <span class="timeline-date">Jan 2020 – Feb 2023</span>
+                    <h3 class="timeline-role">Software Engineer</h3>
+                    <h4 class="timeline-company">GeneX Technologies</h4>
+                    <ul class="timeline-list">
+                        <li>Developed backend modules using Java, Spring Boot, and Hibernate adhering to Controller-Service-Repository architecture.</li>
+                        <li>Built complex REST APIs supporting workflow automation and order management applications.</li>
+                        <li>Designed PostgreSQL schemas and optimized queries for efficient application data storage.</li>
+                        <li>Collaborated closely with cross-functional teams in Agile bi-weekly sprints using Jira to deliver consistent releases.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section">
+        <h2 class="section-title reveal-up">Featured Projects</h2>
+        <div class="projects-grid">
+            <!-- Bitkiva -->
+            <div class="project-card glass-card reveal-up">
+                <div class="project-content">
+                    <h3 class="project-title">Bitkiva</h3>
+                    <p class="project-subtitle">Construction Design & Recommendation Platform</p>
+                    <p class="project-desc">
+                        Architected 4 Spring Boot microservices on GKE for ~200 active engineers. Implemented a graph-based structural modeling engine and a manifest-driven execution engine. Utilized Cloud Pub/Sub for asynchronous solver pipelines and resilient communication.
+                    </p>
+                    <div class="project-tech">
+                        <span>Spring Boot</span><span>GKE</span><span>Pub/Sub</span><span>PostgreSQL</span><span>Redis</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- APM -->
+            <div class="project-card glass-card reveal-up">
+                <div class="project-content">
+                    <h3 class="project-title">APM</h3>
+                    <p class="project-subtitle">Auto Parts Management CRM</p>
+                    <p class="project-desc">
+                        Developed complex backend services for order lifecycle management and real-time inventory tracking. Enforced role-based access via Spring Security and optimized PostgreSQL queries for high-frequency inventory lookups.
+                    </p>
+                    <div class="project-tech">
+                        <span>Spring Boot</span><span>REST APIs</span><span>Spring Security</span><span>PostgreSQL</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Installer Portal -->
+            <div class="project-card glass-card reveal-up">
+                <div class="project-content">
+                    <h3 class="project-title">Installer Portal (IP)</h3>
+                    <p class="project-subtitle">Workflow-Based Order Processing</p>
+                    <p class="project-desc">
+                        Designed a state-machine style routing engine for dynamic order status transitions. Built an installer assignment algorithm matching orders based on region, availability, and skills with robust layered exception handling.
+                    </p>
+                    <div class="project-tech">
+                        <span>Spring Boot</span><span>Hibernate</span><span>State Machine</span><span>Agile</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+        <h2 class="section-title reveal-up">Technical Arsenal</h2>
+        <div class="skills-container reveal-up">
+            
+            <div class="skill-category glass-card">
+                <div class="skill-header">
+                    <i class="fab fa-java"></i>
+                    <h3>Languages & Core</h3>
+                </div>
+                <div class="skill-tags">
+                    <span class="skill-tag">Java 8+</span>
+                    <span class="skill-tag">Collections</span>
+                    <span class="skill-tag">Streams</span>
+                    <span class="skill-tag">Multithreading</span>
+                </div>
+            </div>
+
+            <div class="skill-category glass-card">
+                <div class="skill-header">
+                    <i class="fas fa-leaf"></i>
+                    <h3>Frameworks</h3>
+                </div>
+                <div class="skill-tags">
+                    <span class="skill-tag">Spring Boot</span>
+                    <span class="skill-tag">Spring MVC</span>
+                    <span class="skill-tag">Spring Security</span>
+                    <span class="skill-tag">Hibernate / JPA</span>
+                </div>
+            </div>
+
+            <div class="skill-category glass-card">
+                <div class="skill-header">
+                    <i class="fab fa-google"></i>
+                    <h3>Cloud (GCP)</h3>
+                </div>
+                <div class="skill-tags">
+                    <span class="skill-tag">GKE</span>
+                    <span class="skill-tag">Cloud Pub/Sub</span>
+                    <span class="skill-tag">Cloud SQL</span>
+                    <span class="skill-tag">Cloud Storage</span>
+                </div>
+            </div>
+
+            <div class="skill-category glass-card">
+                <div class="skill-header">
+                    <i class="fas fa-database"></i>
+                    <h3>Data & Messaging</h3>
+                </div>
+                <div class="skill-tags">
+                    <span class="skill-tag">PostgreSQL</span>
+                    <span class="skill-tag">Redis</span>
+                    <span class="skill-tag">Kafka</span>
+                    <span class="skill-tag">AWS Cache</span>
+                </div>
+            </div>
+
+            <div class="skill-category glass-card">
+                <div class="skill-header">
+                    <i class="fas fa-server"></i>
+                    <h3>DevOps & Tools</h3>
+                </div>
+                <div class="skill-tags">
+                    <span class="skill-tag">Docker</span>
+                    <span class="skill-tag">Kubernetes</span>
+                    <span class="skill-tag">Jenkins CI/CD</span>
+                    <span class="skill-tag">Git/Maven</span>
+                    <span class="skill-tag">JUnit/Mockito</span>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="contact-box glass-card reveal-up">
+            <h2 class="contact-title">Ready to build scalable systems?</h2>
+            <p class="contact-desc">I am always open to discussing microservices architecture, cloud-native development, and exciting backend opportunities.</p>
+            <div class="contact-info">
+                <a href="mailto:singhamit17396@gmail.com" class="contact-item">
+                    <i class="fas fa-envelope"></i> singhamit17396@gmail.com
+                </a>
+                <a href="tel:8109297060" class="contact-item">
+                    <i class="fas fa-phone-alt"></i> 8109297060
+                </a>
+                <div class="contact-item">
+                    <i class="fas fa-location-dot"></i> India
+                </div>
+            </div>
+            <a href="mailto:singhamit17396@gmail.com" class="btn-primary contact-btn">Say Hello</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; <span id="year"></span> Amit Kumar Singh. Engineered with precision.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
